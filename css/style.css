@@ -36,7 +36,8 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #212121;
-  text-decoration: underline 2px ;
+  padding-bottom: -5px;
+  border-bottom: 3px solid black;
 }
 h1 {
   font-family: Montserrat;
@@ -153,6 +154,7 @@ h1 {
 }
 .productCatalog {
   clear: both;
+  position: relative;
 }
 .productCatalogItem {
   margin-right: 25px;
@@ -171,7 +173,8 @@ h1 {
   opacity: 0.9;
   background-color: #ffffff;
   border: 1px solid #9c9c9c;
-  position: relative;
+  position: absolute;
+  text-align: center;
 }
 .productCatalogItemLink {
   position: absolute;
@@ -196,6 +199,7 @@ h1 {
   color: #212121;
 }
 .productCatalogItemTitle {
+  margin-top: 129px;
   font-family: Montserrat;
   font-size: 22px;
   line-height: 29px;
@@ -452,4 +456,21 @@ h1 {
   letter-spacing: 0.05em;
   color: #6c6c6c;
   margin-top: 77px;
+}
+.contactIcons {
+  font-family: icomoon;
+  font-size: 28px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #6c6c6c;
+  margin-left: 158px;
+  margin-right: 100px;
+}
+.footerElement {
+  display: inline-block;
+}
+.fa {
+  color: #6c6c6c;
 }
