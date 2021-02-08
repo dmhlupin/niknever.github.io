@@ -388,6 +388,7 @@ h1 {
 }
 .footerBlock {
   display: inline-block;
+  vertical-align:top;
 }
 .subscribe {
   margin-left: 50px;
